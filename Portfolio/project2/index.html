@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> first website </title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <nav>
+                <ul class="topnav" id="dropdownClick"> 
+                    <li><a href= "#home"><b>Home</b></a></li>
+                    <li><a href= "#news"><b>News</b></a></li>
+                    <li><a href= "#about"><b>About</b></a></li>
+                    <li><a href= "#contact us"><b>Contact</b></a></li>
+                    <li class="top-right"><a href= "#signup"><b>Sign Up</b></a></li>
+                    <li class="top-right"><a href= "#Login"><b>Login</b></a></li>
+                    <li class="Icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                </ul>
+            </nav>
+         <div class="container"id="section1" >
+         <div class="row">
+             <div class="col1">
+                 <div><h1>CRAZY MANGO SHOP!!!!</h1></div>
+                 <form>
+                     <div class="left">
+                         <h2 class="head">Username</h2>
+                         <input class="area" type="text" name="username" placeholder="Username">
+                         <h2 class="head">Password</h2>
+                         <input class="area" type="text" name="password" placeholder="Password">
+                     </div>
+                 </form>
+                  </div>
+             <div class="col1"> 
+                 <div class="right">
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/qoQLOY_3DOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                </div>
+             </div>
+         </div>
+         <header>
+             <h1 class="section2">Mango Juice</h1>
+ </header>
+ <div class="container2">
+     <div class="row">
+         <div class="col4">
+             <div class="box">
+                 <div class="Icon2">
+                     <img src="fruit.jpg" width="100" height="100">
+                    </div>
+                     <label><b>About Mango</b></label>
+                     <p>Mango is known as the king of the fruits. Mango and its juice, commonly known as “aam ras” contain many vital vitamins and minerals that are essential for a healthy human body. Mango is a very sweet fruit.</p>
+                </div>
+             </div>
+         <div class="col4">
+            <div class="box">
+                <div class="Icon2">
+                    <img src="fruit.jpg" width="100" height="100">
+                   </div>
+                    <label><b>Benefits</b></label>
+                    <p>Keeps you Healthy,
+                        Helps Prevent Anemia,
+                        Good for Eyes,
+                        Strengthening Bones,
+                        Maintains Blood Pressure and Cholesterol,
+                        Helps in Digestion,
+                        Helps in getting Glowing Skin,     
+                         Useful in Pregnancy.</p>
+            </div>
+
+        </div>
+        <div class="col4">
+            <div class="box">
+                <div class="Icon2">
+                    <img src="fruit.jpg" width="100" height="100">
+                   </div>
+                    <label><b>Effects </b></label>
+                    <p>Overeating mangoes can cause diarrhoea. It's always better to eat it in moderate amounts. Mango is very rich in fire and high consumption of fibrous fruits can cause diarrhoea issues. Mango contains a chemical called urushiol.</p>
+                   </p>
+
+            </div>
+        </div>
+    </div>
+     <div class="row3">
+         <div class="col5">
+             <button class="learn">Learn More</button>
+         </div>
+     </div>
+</div>
+<br>
+<hr>
+<br>
+<div class="container5">
+    <div class="row">
+    <div class="col8">
+           <article> <h2>Green Mango</h2><p>The green mango is basically unripe mango.Green mango can be sour or nutty and sweet depending on the variety.The sour ones are used in the place of lime or in combination with lime in Thai dishes. An unripe mango is very hard when you touch it and does not give in like a ripe fruit.Mangoes will continue to ripen indoors but are sweetest if allowed to ripen on the tree, so wait until your mangoes have coloured before picking.If you want green mangoes,just pick them once they have reached full size but have yet to change colour. </p> </article>
+    </div>
+    <div class="col9">
+        <div class="green">
+        <img src="green.jpg" width="250" height="150">
+    </div>
+    </div>
+</div>
+
+</div>
+
+<footer class="footsy">
+    <div class="row">
+        <div class="col10 mobile"> 
+            <h3>Company</h3>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="col10 mobile">
+            <h3>Products</h3>
+            <ul>
+                <li>Orange</li>
+                <li>Grapes</li>
+                <li>Papaya</li>
+            </ul>
+        </div>
+        <div class="col10 mobile">
+            <h3>Leaen More</h3>
+            <ul>
+                <li>Developers</li>
+                <li>Designers</li>
+                <li>Hackers</li>
+            </ul>
+        </div>
+        <div class="col10 mobile">
+            <h3>Support</h3>
+            <ul>
+                <li>Help</li>
+                <li>QA</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += "responsive";
+
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+ </body>
+</html>
+
